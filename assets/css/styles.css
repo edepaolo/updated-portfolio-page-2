@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+}
+
+body {
+    background-image: url(../images/website_background_image.png)
+}
+
+header {
+    margin: 0 0 35px;
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 4px solid #cccccc;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+.headercontainer {
+    position: relative;
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+#yourname {
+    position: absolute;
+    line-height: 90px;
+    font-size: 20px;
+    float: left;
+    width: 508px;
+    height: 96px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+#navcontainer {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 20px;
+    text-align: right;
+    line-height: 95px;
+    left: 508px;
+    float: right;
+    width: 452px;
+    height: 96px;
+    background-color: #ffffff;
+}
+
+.content {
+    position: relative;
+    width: 960px;
+    margin: 0 auto 35px auto;
+    background-color: #ffffff;
+    border: #dddddd solid 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 30px;
+    height: 800px;
+
+}
+
+.content img {
+    float: left;
+    padding: 0 15px 10px 0;
+}
+
+.content h2 {
+    text-align: left;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+    margin: 20px auto 20px; 
+    border: #dddddd solid 2px;
+
+}
+
+p {
+    text-align: left;
+}
+
+nav {
+    display: inline-block;
+}
+
+a {
+    color: #777777;
+}
+
+footer {
+    width: 100%;
+    height: 75px;
+    border-top: #4aaaa5 solid 4px;
+    padding: 1px;
+    line-height: 100px;
+    background-color: #666666;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    color: #dddddd;
+}
+
+form {
+    width: 100%;
+    text-align: left;
+    color: #777777;
+}
+
+form input {
+    width: 100%;
+    text-align: left;
+}
+
+input[type=submit] {
+    padding:15px 15px; 
+    background:#4aaaa5; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: auto;
+    margin: 30px 0 0 0 ;
+    color: #ffffff;
+}
+
+#message {
+    height: 300px;
+}
+
+.gallery {
+    position: relative;
+    float: left;
+    width: 325px;
+    height: 325px;
+    border: 20px;
+    padding: 0px;
+}
+
+.gallery img {
+    width: 100%;
+    border: 10px 10px 10px;
+    
+}
+
+h3 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #cccccc;
+    width: 100%;
+}

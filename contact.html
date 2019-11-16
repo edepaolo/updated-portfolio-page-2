@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Edouard's Portfolio</title>
+    <title>Basic Portfolio</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -24,11 +24,20 @@
     </header>
 
     <section class="content">
-        <h2>About Me</h2>
+        <h2>Contact</h2>
         <hr>
-        <img src="assets/images/profile.PNG">
-        <p>I have a professional background in Information Technology and Hospitality. My ability to communicate effectively, organize solutions, and learn quickly has propelled my career development. I seek out challenges and leverage my varied background and team in support of strategic and tactical performance.</p>
+        <form action="/action_page.php">
+            Name:
+            <br> 
+            <input type="text" name="fname"><br>
+            Email:
+            <br> 
+            <input type="text" name="lname"><br>
+            Message: 
             <br>
+            <input type="text" name="message" id="message"><br>
+            <input type="submit" value="Submit">
+          </form>
     </section>
 
     <footer>Copyright &copy 2019</footer>
